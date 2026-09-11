@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sdida"
+version = "0.1.0"
+description = "Deterministic data provenance, selective remediation, and verification toolkit"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+dependencies = []
+
+[project.optional-dependencies]
+google = [
+    "google-api-python-client>=2.0",
+    "google-auth-oauthlib>=1.0",
+]
+test = [
+    "pytest>=8.0",
+]
+
+[project.scripts]
+sdida = "sdida.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
