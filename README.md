@@ -106,6 +106,7 @@ OAuth tokens are stored outside the repository under `~/.sdida/google/` by defau
 - [`docs/architecture.md`](docs/architecture.md) — pipeline, invariants, trust boundaries, and data model.
 - [`docs/validation.md`](docs/validation.md) — reproducible synthetic known-answer test.
 - [`docs/nist-sp-800-88r2-crosswalk.md`](docs/nist-sp-800-88r2-crosswalk.md) — boundary between SDIDA verification and media-sanitization claims.
+- [`docs/SDIDA_NIST_Project_Baseline_v0.2_2026-09-15.md`](docs/SDIDA_NIST_Project_Baseline_v0.2_2026-09-15.md) — present-state SDIDA-to-NIST baseline, decision log, and recovered creation-prompt provenance. This is a descriptive mapping, not a compliance assertion.
 
 ## License
 
